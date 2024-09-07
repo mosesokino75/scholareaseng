@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@600&display=swap" rel="stylesheet">
 <!--  -->
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400+500&display=swap" rel="stylesheet">
     
     <style>
    body {
@@ -58,18 +58,15 @@ h1, h2, h3, h4, h5, h6 {
           <li class="nav-item"> <a class="nav-link" href="#!">About</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#!">Services</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#!">Pricing</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#!">Blog</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#!">Blog&#160;&#160;</a> </li>
           <li class="nav-item"> 
-            <a class="nav-link border border-danger py-1 px-3 text-danger text-small" href="#!" style="border-radius: 35px;">Try Demo</a> 
-          </li>
-          <li class="nav-item"> <a class="d-none" href="#!">
-            <button class="btn btn-outline-danger btn-sm text-center" style="border-radius: 35px;" role="button">Try Demo</button></a>
+            <a class="nav-link text-danger" href="#!" style="font-weight: 500;">Try Demo</a> 
           </li>
         </ul>
       </div>
     </nav></div>
   
-  <section class="pb-0 bg-light" style="overflow: hidden;">
+  <section class="pb-0 bg-grey" style="overflow: hidden;">
       <div class="container px-0">
           <div class="row">
               <div class="col-md-6 my-auto">
@@ -77,9 +74,9 @@ h1, h2, h3, h4, h5, h6 {
                   <p class="py-2 mb-0">ScholarEase empowers students with the ability to grasp complex concepts to enhance their learning experience.</p></div>
                   
                   <div class="media px-4 pt-3">
-  <a class="btn btn-danger mr-3 px-4" role="button" style="background-color: #E05040; border-radius: 100px">Sign Up</a>
+  <a class="btn btn-danger mr-3 px-4" role="button" href="#cta" style="background-color: #E05040; border-radius: 100px">Get Started</a>
   <div class="media-body">
-    <p class="mt-0 small text-secondary">Over 100,000 students<br> 
+    <p class="mt-0 small text-secondary">Over 10,000 students<br> 
                       use ScholarEase daily</p>
   </div>
 </div>
@@ -170,6 +167,9 @@ h1, h2, h3, h4, h5, h6 {
   </section>
 
   <section><!-- benefits -->
+  <style>
+      .img-pop {filter: brightness(110%) contrast(110%) saturate(100%)}
+  </style>
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center mb-4">
@@ -179,7 +179,8 @@ h1, h2, h3, h4, h5, h6 {
         <!----></div>
         <div class="row">
         <div class="col-md-6 text-left my-auto">
-          <div class="px-2 py-3"><img class="img-fluid img-thumbnail rounded text-right" width="450px" src="assets/images/a.jpg"></div>
+          <div class="px-2 py-3"><div class="rounded" style="background-color: #E0A022;">
+              <img class="img-fluid rounded text-right img-pop shadow-sm" width="450px" src="assets/images/a.jpg" style="transform: rotate(5deg);"></div></div>
         </div>
         
         <style>
@@ -196,7 +197,8 @@ h1, h2, h3, h4, h5, h6 {
         <!--1--></div>
         <div class="row">
         <div class="col-md-6 text-right my-auto order-md-2">
-          <div class="px-2 py-3"><img class="img-fluid img-thumbnail rounded" width="450px" src="assets/images/b.jpg"></div>
+          <div class="px-2 py-3"><div class="rounded" style="background-color: #E45547;">
+              <img class="img-fluid rounded text-right img-pop shadow-sm" width="450px" src="assets/images/b.jpg" style="transform: rotate(5deg);"></div></div>
         </div>
         <div class="col-md-6 my-auto order-md-1">
           <div class="p-2">
@@ -208,7 +210,8 @@ h1, h2, h3, h4, h5, h6 {
         <!--2--></div>
         <div class="row">
         <div class="col-md-6 text-left my-auto">
-          <div class="px-2 py-3"><img class="img-fluid img-thumbnail rounded" width="450px" src="assets/images/c.jpg"></div>
+          <div class="px-2 py-3"><div class="rounded" style="background-color: #00905D;">
+              <img class="img-fluid rounded text-right img-pop shadow-sm" width="450px" src="assets/images/c.jpg" style="transform: rotate(5deg);"></div></div>
         </div>
         <div class="col-md-6 my-auto">
           <div class="p-2">
@@ -223,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
   </section>
 
-  <section class="bg-light"><!-- steps -->
+  <section style="background-color: #FFFDE7;"><!-- steps -->
     <div class="container">
       <div class="row">
         <div class="col-md-3 p-3">
@@ -231,25 +234,25 @@ h1, h2, h3, h4, h5, h6 {
         </div>
         <!---->
         <div class="col p-3">
-          <h3>01</h3>
+          <h3 class="text-warning">01</h3>
           <h5>Upload PDF File</h5>
           <p>Start by uploading your academic document.</p>
         </div>
         <!---->
         <div class="col p-3">
-          <h3>02</h3>
+          <h3 class="text-warning">02</h3>
           <h5>Select Function</h5>
-          <p>Choose your optione e.g simplifying text.</p>
+          <p>Choose your option  e.g simplifying text.</p>
         </div>
         <!----><div class="w-100 d-md-none d-lg-none"></div>
         <div class="col p-3">
-          <h3>03</h3>
+          <h3 class="text-warning">03</h3>
           <h5>Start the Process</h5>
           <p>Click "begin" to start the tool's perfomance.</p>
         </div>
         <!---->
         <div class="col p-3">
-          <h3>04</h3>
+          <h3 class="text-warning">04</h3>
           <h5>Download File</h5>
           <p>Check the simplified content and download.</p>
         </div>
@@ -276,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
                 <div class="card rounded my-3">
                   <div class="row no-gutters">
                     <div class="col-md-5 text-center">
-                      <img class="text-center p-0 img-fluid" src="assets/images/43.png">
+                      <img class="text-center p-0 img-fluid" src="assets/images/i.png">
                     </div>
                     <div class="col-md-7 my-auto">
                       <div class="card-body">
@@ -292,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
                   <div class="card rounded my-3">
                     <div class="row no-gutters">
                       <div class="col-md-5 text-center">
-                        <img class="text-center p-0 img-fluid"  src="assets/images/43.png">
+                        <img class="text-center p-0 img-fluid"  src="assets/images/ii.png">
                       </div>
                       <div class="col-md-7 my-auto">
                         <div class="card-body">
@@ -308,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
                     <div class="card rounded my-3">
                       <div class="row no-gutters">
                         <div class="col-md-5 text-center">
-                          <img class="text-center p-0 img-fluid" src="assets/images/43.png">
+                          <img class="text-center p-0 img-fluid" src="assets/images/iii.png">
                         </div>
                         <div class="col-md-7 my-auto">
                           <div class="card-body">
@@ -324,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
                       <div class="card rounded my-3">
                         <div class="row no-gutters">
                           <div class="col-md-5 text-center">
-                            <img class="text-center p-0 img-fluid" src="assets/images/43.png">
+                            <img class="text-center p-0 img-fluid" src="assets/images/iv.png">
                           </div>
                           <div class="col-md-7 my-auto">
                             <div class="card-body">
@@ -355,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
   </section>
 
-  <section class="pb-0 pt-5 bg-light" style="overflow: hidden;">
+  <section class="pb-0 pt-5 bg-grey" style="overflow: hidden;">
     <div class="container px-0">
       <div class="row">
         <div class="col-md-6 my-auto">
@@ -365,8 +368,8 @@ h1, h2, h3, h4, h5, h6 {
           <div class="card rounded">
             <div class="card-body">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Consequatur at libero hic alias modi voluptatum architector.</p>
-                <footer class="blockquote-footer">John Doe <cite title="Source Title">Student</cite>
+                <p>ScholarEase simplifies complex texts brilliantly! It's like having a personal tutor guiding me. My grades have improved since using it. Highly recommended!</p>
+                <footer class="blockquote-footer">Eke Joseph <cite title="Source Title">Student</cite>
                   <span class="float-right font-weight-bold text-red">Next&#160;&#160;<i class="fa fa-arrow-right fa-1x text-red"></i></span>
                 </footer>
               </blockquote></div>
@@ -483,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
   </div>
 </section>
 
-<section class="bg-light" id="features"><!--  -->
+<section style="background-color: #E8F5E9;"><!--  -->
 <style>
     .icon-background {
   display: inline-flex;
@@ -503,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 </style>
   <div class="container px-4">
       <div class="row gx-5">
-          <div class="col-lg-4 mb-4 mb-lg-0"><h2 class="mb-0">Your Sure Learning Plug, Shock Lecturer</h2></div>
+          <div class="col-lg-4 mb-4 mb-lg-0"><h2 class="mb-0">Your Sure Learning Plug, Surprise Lecturers</h2></div>
           <div class="col-lg-8">
               <div class="row gx-3 row-cols-1 row-cols-md-2">
                   <div class="col mb-2 h-100">
@@ -532,40 +535,15 @@ h1, h2, h3, h4, h5, h6 {
   </div>
 </section>
 
-<section class="d-none"><!--  -->
-  <div class="container">
-    <div class="row">
-        
-      <div class="col-md-6 p-3 d-none my-auto text-right">
-        <img class="img-fluid" width="450px" src="assets/images/43.png">
-      </div>
-      <!---->
-      
-         <div class="col-md-12"></div>   
-         
-      <div class="col-md-6 p-3">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></div>
+<div class="p-0" id="cta"></div>
 
-        <div class="col-md-3 p-3">
-          <p class="mb-3">Consequatur at libero hic alias modi voluptatum architector.</p>
-          <p>Consequatur at libero hic alias modi voluptatum architector.</p>
-        </div>
-      <!---->
-      
-      <div class="col-md-3 p-3">
-        <p class="mb-3">Consequatur at libero hic alias modi voluptatum architector.</p>
-        <p>Consequatur at libero hic alias modi voluptatum architector.</p>
-      </div>
-
-    <!---->
-    </div>
-  </div>
-</section>
-
-  <section><!-- cta -->
-    <div class="container">
+  <section class="py-0" style="background-image: url('assets/images/cta.jpeg'); background-repeat: no-repeat; background-size: cover; 
+    background-position: top center;"><!-- cta -->
+    <div class="container-fluid" style="background-color: rgba(0,0,5,0.4);
+	padding-top: 11vh;
+	padding-bottom: 11vh;">
       <div class="row">
-        <div class="col-md-4 mx-auto px-3 py-5 text-center">
+        <div class="col-md-4 mx-auto px-3 py-5 text-center text-white">
           <h2>Unlock Your Learning Potential Today!</h2>
           <p>Take the first step towards simplified learning and better understanding.</p>
           <a class="btn btn-warning" style="border-radius: 100px;">Sign Up</a>
@@ -699,7 +677,7 @@ h1, h2, h3, h4, h5, h6 {
               </div>
               <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                 <div class="card-body">
-                  At the moment, content access is available online only.
+                  At the moment, content access is available online only on our standard and premium plan.
                 </div>
               </div>
             </div>
@@ -712,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
 
   </section>
 
-  <section class="py-5"><!-- contact -->
+  <section class="py-5 bg-light"><!-- contact -->
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -720,58 +698,58 @@ h1, h2, h3, h4, h5, h6 {
             <p class="text-muted mb-0"></p>
         </div>
         <div class="col-md-3">
-            <div class="py-2">
-                <i class="ph ph-book-open-text text-grey mb-3" style="font-size: 36px;"></i>
-            <div class="h5">Ask the community</div>
+            <div class="py-3">
+                <i class="ph ph-book-open-text text-red" style="font-size: 36px;"></i>
+            <div class="h5 mt-2">Ask the community</div>
             <p class="text-muted mb-0">Explore our <a class="font-weight-bold text-secondary" href="#!">forums</a> and communicate with other users.</p>
         </div></div>
         <div class="col-md-3">
-            <div class="py-2">
-                <i class="ph ph-envelope-open text-grey mb-3" style="font-size: 36px;"></i>
-            <div class="h5">Support center</div>
+            <div class="py-3">
+                <i class="ph ph-envelope-open text-red" style="font-size: 36px;"></i>
+            <div class="h5 mt-2">Support center</div>
             <p class="text-muted mb-0">Browse FAQ's or send a message to <a class="font-weight-bold text-secondary" href="#!">support@scholarease.ng</a></p>
         </div></div>
         <div class="col-md-3">
-            <div class="py-2">
-                <i class="ph ph-phone text-grey mb-3" style="font-size: 36px;"></i>
-            <div class="h5">Call us</div>
+            <div class="py-3">
+                <i class="ph ph-phone text-red mb-3" style="font-size: 36px;"></i>
+            <div class="h5 mt-2">Call us</div>
             <p class="text-muted mb-0">Call us during normal business hours at <a class="font-weight-bold text-secondary" href="#!">(+234) 892-9403</a></p>
         </div></div>
     </div>
     </div>
   </section>
 
-  <section class="pt-5 pb-3 bg-grey"><!--footer-->
+  <section class="pt-5 pb-3 text-white" style="background-color: #EF5350;"><!--footer-->
     <div class="container">
       <div class="row">
         <div class="col-md-4 pb-5">
-          <img class="" src="assets/images/logomark.png" width="45px">
+          <img class="d-none" src="assets/images/logo.png" width="180px"><h3><span class="text-white">Scholar</span><span style="color: #007A4F;">Ease</span><span class="text-warning">NG</span></h3>
         </div>
     
         <div class="col">
           <h5>Product</h5>
           <ul class="list-unstyled">
-          <li class="py-1"><a class="text-secondary" href="#!">Pricing</a></li>
-          <li class="py-1"><a class="text-secondary" href="#!">Documentation</a></li>
-          <li class="py-1"><a class="text-secondary" href="#!">Support</a></li>
+          <li class="py-1"><a class="text-light" href="#!">Pricing</a></li>
+          <li class="py-1"><a class="text-light" href="#!">Documentation</a></li>
+          <li class="py-1"><a class="text-light" href="#!">Support</a></li>
           </ul>
         </div>
         
         <div class="col">
             <h5>Features</h5>
             <ul class="list-unstyled">
-            <li class="py-1"><a class="text-secondary" href="#!">Demo</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">Solutions</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">Guides</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Demo</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Resources</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Guides</a></li>
             </ul>
           </div>
     
         <div class="col">
             <h5>Company</h5>
             <ul class="list-unstyled">
-            <li class="py-1"><a class="text-secondary" href="#!">About</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">Services</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">Blog</a></li>
+            <li class="py-1"><a class="text-light" href="#!">About</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Services</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Blog</a></li>
             </ul>
           </div>
           
@@ -779,9 +757,9 @@ h1, h2, h3, h4, h5, h6 {
         <div class="col">
             <h5>Policies</h5>
             <ul class="list-unstyled">
-            <li class="py-1"><a class="text-secondary" href="#!">Terms</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">Privacy</a></li>
-            <li class="py-1"><a class="text-secondary" href="#!">License</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Terms</a></li>
+            <li class="py-1"><a class="text-light" href="#!">Privacy</a></li>
+            <li class="py-1"><a class="text-light" href="#!">License</a></li>
             </ul>
           </div>
         
@@ -795,15 +773,15 @@ h1, h2, h3, h4, h5, h6 {
           <div class="col-md-4"></div>
     
           <div class="col-md-4 my-auto">
-              <div class="py-3 small">© 2023 ScholarEase NG,</span> <span class="pl-1"> All rights reserved.</span></div>
+              <div class="py-3 small">© 2023 ScholarEaseNG,</span> <span class="pl-1"> All rights reserved.</span></div>
           </div>
           
           <div class="col py-3 my-auto">
             <h5>
-              <a href="https://twitter.com/" class="hvr-icon-float mx-1" target="_blank"><i class="fab fa-twitter text-secondary hvr-icon" style="font-size: 20px;"></i></a>
-              <a href="https://www.instagram.com/" class="hvr-icon-float mx-1" target="_blank"><i class="fab fa-instagram text-secondary hvr-icon" style="font-size: 20px;"></i></a>
-              <a href="https://www.linkedin.com/" class="hvr-icon-float mx-1"><i class="fab fa-linkedin text-secondary hvr-icon" target="_blank" style="font-size: 20px;"></i></a>
-              <a href="https://www.github.com/" class="hvr-icon-float mx-1"><i class="fab fa-github text-secondary hvr-icon" target="_blank" style="font-size: 20px;"></i></a>
+              <a href="https://twitter.com/" class="hvr-icon-float mx-1" target="_blank"><i class="fab fa-twitter text-white hvr-icon" style="font-size: 20px;"></i></a>
+              <a href="https://www.instagram.com/" class="hvr-icon-float mx-1" target="_blank"><i class="fab fa-instagram text-white hvr-icon" style="font-size: 20px;"></i></a>
+              <a href="https://www.linkedin.com/" class="hvr-icon-float mx-1"><i class="fab fa-linkedin text-white hvr-icon" target="_blank" style="font-size: 20px;"></i></a>
+              <a href="https://www.github.com/" class="hvr-icon-float mx-1"><i class="fab fa-github text-white hvr-icon" target="_blank" style="font-size: 20px;"></i></a>
             </h5>
           </div>
     
@@ -843,8 +821,8 @@ scroll-behavior: smooth;
 }
 </style>
 
-  <a href="#top" class="btn btn-transparent top p-0" id="top" role="button">
-    <i class="fas fa-arrow-up px-2 text-warning"></i>
+  <a href="#top" class="btn btn-light glass-btn top p-0" style="border-radius: 35px;" id="top" role="button">
+    <i class="fas fa-arrow-up px-2 text-light"></i>
   </a>
   
 <script>
